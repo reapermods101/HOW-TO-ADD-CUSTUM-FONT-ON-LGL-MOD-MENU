@@ -1,0 +1,12 @@
+import android.graphics.Typeface;
+import android.content.res.AssetManager;
+
+//For 3.2
+
+Typeface typeface1 = Typeface.createFromAsset(getContext.getAssets(), "font/font"); 
+        title.setTypeface(typeface1);
+
+//For lower version
+
+Typeface typeface1 = Typeface.createFromAsset(getAssets(), "font/font"); 
+        title.setTypeface(typeface1);
